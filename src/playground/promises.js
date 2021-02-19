@@ -12,6 +12,9 @@ promise
   .then((data) => {
     console.log(data);
   })
+  .then((str) => {
+    console.log("does this run?", str);
+  })
   .catch((error) => {
     console.log(error);
   });
